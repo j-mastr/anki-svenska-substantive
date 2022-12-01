@@ -1,0 +1,1 @@
+export { definiteSingular } from './definiteSingular';

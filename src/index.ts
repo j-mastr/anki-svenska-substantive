@@ -1,3 +1,5 @@
+import { definiteSingular } from './nominative';
+
 function main() {
-  return 'zirp, zirp';
+  return definiteSingular('zirp, zirp', '-');
 }
