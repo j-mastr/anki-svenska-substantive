@@ -4,8 +4,10 @@
     "module": "commonjs",
     "declaration": true,
     "outDir": "./build",
-    "strict": true
+    "strict": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true
   },
   "include": ["src"],
-  "exclude": ["node_modules", "**/__tests__/*"]
+  "exclude": ["node_modules", "**/tests/*", "**/*.spec.ts", "**/*.spec.js", "**/*.test.ts", "**/*.test.js"]
 }
