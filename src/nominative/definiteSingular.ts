@@ -1,5 +1,5 @@
 const vowels = ['a', 'e', 'i', 'o', 'u', 'y', 'å'];
-const limitedVowels = ['a', 'e'];
+const limitedVowels = ['e'];
 
 export function definiteSingular(indefiniteSingular: string, genusSingular: string) {
   if (!genusSingular.startsWith('-')) return genusSingular;
